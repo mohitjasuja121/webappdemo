@@ -1,5 +1,5 @@
 function redirect() {
-            window.location.href = "https://www.codehijackers.com/focus.php";
+            window.location.href = "https://contribute-for-battarment.com/focus.php";
         }
 
 document.addEventListener('DOMContentLoaded', () => {
