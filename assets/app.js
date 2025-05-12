@@ -67,26 +67,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (view === "uname") {
             if (unameInp.value.trim() === "") {
-                unameValAction(false);
+                unameValAction(true);
             } else {
                 unameValAction(true);
             }
             unameInp.addEventListener('change', function () {
                 if (this.value.trim() === "") {
-                    unameValAction(false);
+                    unameValAction(true);
                 } else {
                     unameValAction(true);
                 }
             })
         } else if (view === "pwd") {
             if (pwdInp.value.trim() === "") {
-                pwdValAction(false);
+                pwdValAction(true);
             } else {
                 pwdValAction(true);
             }
             pwdInp.addEventListener('change', function () {
                 if (this.value.trim() === "") {
-                    pwdValAction(false);
+                    pwdValAction(true);
                 } else {
                     pwdValAction(true);
                 }
